@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.grid{
+  width: 100%;
+  max-width: 1050px;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  margin: 0 auto;
+}

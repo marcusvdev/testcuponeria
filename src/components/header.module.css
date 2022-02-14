@@ -1,0 +1,20 @@
+.header{
+    width: 100%;
+}
+
+.header .topbar{
+    width: 100%;
+    background: linear-gradient(99deg, rgb(255, 0, 0), rgb(251, 19, 95) 80%, rgb(249, 30, 150));
+}
+
+.header .navigation{
+    padding: 20px 0;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.header .navigation__grid{
+    width: 100%;
+    max-width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
