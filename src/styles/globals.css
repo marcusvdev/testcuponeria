@@ -17,7 +17,34 @@ a {
 .grid{
   width: 100%;
   max-width: 1050px;
-  display: grid;
-  grid-template-columns: 220px 1fr;
   margin: 0 auto;
+}
+
+.btn-primary{
+  cursor: pointer;
+    width: 100%;
+    min-width: auto;
+    min-height: 37px;
+    max-height: 37px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border-radius: 19px;
+    background: linear-gradient(90deg, rgb(36, 201, 43) 0%, rgb(9, 159, 15) 100%);
+    border: none;
+    box-shadow: rgb(0 0 0 / 30%) 0px 1px 3px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1 1 0%;
+    flex-direction: row;
+    opacity: 1;
+    pointer-events: auto;
+    transition: background 0.2s ease-in 0s;
+}
+
+.btn-primary:hover{
+  background: linear-gradient(rgb(36, 201, 43), rgb(9, 159, 15));
 }

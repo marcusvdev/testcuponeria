@@ -1,6 +1,7 @@
 .footer{
     width: 100%;
     padding: 45px 0;
+    margin-top: 45px;
     background: linear-gradient(rgb(255, 0, 0), rgb(249, 30, 150));
     text-align: center;
 }
