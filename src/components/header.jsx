@@ -4,8 +4,6 @@ import styles from './header.module.css'
 
 export default function Header() {
 
-    const logo = require('./../../public/logo.svg');
-
     return (
         <header className={styles.header}>
             <div className={styles.topbar}>
