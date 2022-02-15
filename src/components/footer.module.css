@@ -1,4 +1,15 @@
 .footer{
     width: 100%;
+    padding: 45px 0;
     background: linear-gradient(rgb(255, 0, 0), rgb(249, 30, 150));
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 25px;
 }
