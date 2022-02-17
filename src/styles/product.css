@@ -1,0 +1,33 @@
+.page-product {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-product__image {
+  width: 50%;
+}
+
+.page-product__image img {
+  object-fit: contain;
+}
+
+.page-product__content {
+  width: 50%;
+}
+
+.page-product__content h2 {
+  margin-bottom: 10px;
+}
+
+.page-product__content .price {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4caf50;
+  margin-bottom: 30px;
+}
+
+.page-product__content .description {
+  margin-bottom: 20px;
+}

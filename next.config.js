@@ -1,4 +1,7 @@
 module.exports = {
   reactStrictMode: true,
-  swcMinify: false
+  swcMinify: false,
+  images: {
+    domains: ['assets.vercel.com', 'fakestoreapi.com']
+  },
 }

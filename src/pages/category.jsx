@@ -3,17 +3,15 @@ import Link from 'next/link'
 import Layout from '../components/layout'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import styles from '../styles/Home.module.css'
 
-function Home({data}) {
-  
+function Category({data}) {
   return (
     <Layout>
       <Header />
       <section className="page">
         <div className="grid">
             <div className="page__title">
-                <h2>Sugestões para você</h2>
+                <h2>Roupas</h2>
                 <select
                   className="dropwdown-filter"
                     onChange={(e) => {console.log(e.target.value)}}
@@ -46,7 +44,7 @@ function Home({data}) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch('https://fakestoreapi.com/products')
+  const res = await fetch(`https://fakestoreapi.com/products/category/women's%20clothing`)
   const data = await res.json()
   return {
       props: {
@@ -55,4 +53,4 @@ export async function getStaticProps() {
   }
 }
 
-export default Home
+export default Category
