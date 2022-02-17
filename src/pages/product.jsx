@@ -5,6 +5,21 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 
 function Product({data}) {
+
+  // const router = useRouter();
+  // const { ID } = router.query;
+  // const [product, setProduct] = useState({});
+  // const productUrl = `https://fakestoreapi.com/products/${ID}`
+  
+  // useEffect(()=>{
+  //   let fetchProduct = async () => {
+  //     const res = await fetch(productUrl);
+  //     const {data} = await res.json();
+  //     setProduct(data)
+  //   }
+  //   fetchProduct()
+  // }, []);
+
   return (
     <Layout>
       <Header />
